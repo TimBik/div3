@@ -4,11 +4,12 @@ public class FastMultiply {
     public static void main(String[] args) {
         int a = 192;
         long p = 1234567891011L;
-        //возведем число a в степень p
+        //возведем число a в степень p по модулю mod
         System.out.println(power(a, p));
     }
 
     //выводим ответ по этому модулю
+    // (1e9 + 7) - простое числа
     static long mod = (long) (1e9 + 7);
 
     //возведение в степень
