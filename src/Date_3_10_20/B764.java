@@ -22,6 +22,9 @@ public class B764 {
                 a[r] = a[l] ^ a[r];
                 a[l] = a[l] ^ a[r];
             }
+            k++;
+            l--;
+            r++;
         }
         System.out.println(Arrays.toString(a));
     }
