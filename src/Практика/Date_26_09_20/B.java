@@ -1,4 +1,4 @@
-//package Практика.Date_26_09_20;
+package Практика.Date_26_09_20;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
